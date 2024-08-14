@@ -1,1 +1,1 @@
-# House-Price-Index-Modeling
+# House Price Index (HPI)
