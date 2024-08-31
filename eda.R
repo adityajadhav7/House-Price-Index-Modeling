@@ -3,7 +3,6 @@ packages <- c("tidyverse", "vroom", "lubridate", "viridis", "quantreg", "scales"
 install.packages(packages[!packages %in% installed.packages()[,"Package"]])
 lapply(packages, library, character.only = TRUE)
 
-# Set output path
 fig_path <- 'results/'
 dir.create(fig_path, showWarnings = FALSE)
 
